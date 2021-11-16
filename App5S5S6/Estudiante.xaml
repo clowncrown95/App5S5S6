@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5S5S6.Estudiante"
+             Title="Estudiante"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Label Text="Codigo"/>
+            <Entry x:Name="txtCod" Keyboard="Numeric"/>
+            <Label Text="Nombre"/>
+            <Entry x:Name="txtNom" Keyboard="Default"/>
+            <Label Text="Apellido"/>
+            <Entry x:Name="txtApel" Keyboard="Default"/>
+            <Label Text="Edad"/>
+            <Entry x:Name="txtEdad" Keyboard="Numeric"/>
+            <Button x:Name="btnGrabar" Text="Guardar" Clicked="btnGrabar_Clicked"/>
+            <Button x:Name="btnRegresar" Text="Regresar" Clicked="btnRegresar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
